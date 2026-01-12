@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+       <div class="navLinks">
+         <img src="images/logo.svg" alt="">
+          <ul>
+            <li>Features</li>
+            <li>Pricing</li>
+            <li>Resources</li>
+          </ul>
+       </div>
+       <div class="navActions">
+           <button class="loginBtn">Login</button>
+           <button class="signupBtn">Sign Up</button>
+       </div>
+       <i style="font-size: 25px; color: grey;" class="fa-solid fa-bars menuBar hidden"></i>
+       <div class="menu hidden">
+         <ul>
+           <li>Features</li>
+            <li>Pricing</li>
+            <li>Resources</li>
+         </ul>
+         <hr>
+         <div class="menuAction">
+           <button class="loginBtn">Login</button>
+           <button class="signupBtn">Sign up</button>
+         </div>
+       </div>
+    </nav>
+  </header>
+  <main>
+    <section class="home">
+       <div class="homeText">
+         <h1>More than just shorter links</h1>
+         <p>Build your brand’s recognition and get detailed insights 
+           on how your links are performing.</p>
+           <button class="startBtn">Get Started</button>
+       </div>
+       <div class="homeImage">
+         <img src="images/illustration-working.svg" alt="">
+       </div>
+       <div class="shortenLink">
+        <div class="inputContainer">
+          <input type="text" name="" id="input" placeholder="Shorten a link here...">
+          <p class="error"></p>
+        </div>
+            
+            <button class="shortenBtn">Shorten it</button>
+       </div>
+    </section>
+    <section class="statistics">
+       <div class="shortLinkContainer">
+       </div>
+       <h1>Advanced Statistics</h1>
+       <p class="description">Track how your links are performing across the web with our 
+        advanced statistics dashboard.</p>
+        <div class="cards">
+           <div class="item">
+             <img src="images/icon-brand-recognition.svg" alt="">
+             <h2>Brand Recognition</h2>
+             <p>Boost your brand recognition with each click. Generic links don’t 
+              mean a thing. Branded links help instil confidence in your content.</p>
+           </div>
+           <div class="item">
+             <img src="images/icon-detailed-records.svg" alt="">
+             <h2>Detailed Records</h2>
+             <p>Gain insights into who is clicking your links. Knowing when and where 
+              people engage with your content helps inform better decisions.</p>
+           </div>
+           <div class="item last">
+             <img src="images/icon-fully-customizable.svg" alt="">
+             <h2>Fully Customizable</h2>
+             <p> Improve brand awareness and content discoverability through customizable 
+          links, supercharging audience engagement.</p>
+           </div>
+           <div class="line">
+           </div>
+        </div>
+    </section>
+    <section class="boost">
+       <h1>Boost your links today</h1>
+       <button class="startBtn">Get Started</button>
+    </section>
+  </main>
+  <footer>
+      <img class="logoF" src="images/logo.svg" alt="">
+      <div class="footerLinks">
+        <ul class="featureLinks">
+            <li>Features</li>
+            <li>Link Shortening</li>
+            <li>Branded Links</li>
+            <li>Analytics</li>
+        </ul>
+        <ul class="resourcesLinks">
+            <li>Resources</li>
+            <li>Blog</li>
+            <li>Developers</li>
+            <li>Support</li>
+        </ul>
+        <ul class="companyLinks">
+           <li>Company</li>
+           <li>About</li>
+           <li>Our Team</li>
+           <li>Careers</li>
+           <li>Contact</li>
+        </ul>
+      </div>
+      <div class="socialLinks">
+        <img src="images/icon-facebook.svg" alt="">
+        <img src="images/icon-twitter.svg" alt="">
+        <img src="images/icon-pinterest.svg" alt="">
+        <img src="images/icon-instagram.svg" alt="">
+      </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
